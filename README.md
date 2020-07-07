@@ -27,3 +27,27 @@ The syntax is derived from javascript
 {"name": "james", "age": "18"}
 - data in name/ value pairs is separated by commas
 ```
+
+#### Data received back from on premise data
+```` bash
+xml, html, javasctipt, Json
+````
+
+HTTP response
+- Response codes include 200, 400, 404
+- the response structure includes:
+
+````
+Header - has data in key value pairs
+After the header we have the BODY, which includes Text, Json, XML
+The response is coming from the web browser, web-app or anywhere we
+have an API interaction 
+
+````
+
+### Restful API
+### CRUD
+````
+Create, Read, Update and Delete - 4 basic database operations
+How many HTTP services also mo
+````
